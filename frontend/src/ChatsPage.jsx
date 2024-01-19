@@ -7,7 +7,7 @@
 // } from 'react-chat-engine-advanced';
 // const ChatsPage = (props) => {
 //   const chatProps = useMultiChatLogic(
-//     '8e5c0c81-e661-4513-b3fd-99bf6b92a7b8',
+//     'Your ID',
 //     props.user.username,
 //     props.user.secret
 //   );
@@ -27,7 +27,7 @@ import { PrettyChatWindow } from 'react-chat-engine-pretty';
 const ChatsPage = (props) => {
   return (
     <PrettyChatWindow
-      projectId="8e5c0c81-e661-4513-b3fd-99bf6b92a7b8"
+      projectId="Your ID"
       username={props.user.username}
       secret={props.user.secret}
       style={{ height: '500vh' }}
